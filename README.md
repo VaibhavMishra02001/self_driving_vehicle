@@ -14,6 +14,7 @@ Make a Reinforcement Learning (RL) Model which can drive a car without any exter
 # Graphs
 
 
+![Figure_1nv](https://user-images.githubusercontent.com/109021179/198968802-2dca0532-b13c-478f-b77e-dc9421c95b8c.png)
 
 
 # Implementation
