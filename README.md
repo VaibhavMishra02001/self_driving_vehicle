@@ -6,7 +6,8 @@ This project focuses on making a model of Self Driving Vehicle using Tabular Rei
 # Description
 Make a Reinforcement Learning (RL) Model which can drive a car without any external assistance (i.e. Learning from its own experience).
 
-https://user-images.githubusercontent.com/102024497/197708045-e1dd4e4a-4097-4d9c-8ec4-397d69fdbee3.gif
+![197708045-e1dd4e4a-4097-4d9c-8ec4-397d69fdbee3](https://user-images.githubusercontent.com/109021179/201350919-1c9ce660-c809-4e15-b322-20ddd7eeb0bc.gif)
+
 
 
 
