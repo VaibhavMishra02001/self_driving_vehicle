@@ -60,12 +60,15 @@ It is an off policy learning method of action values Q(s,a) in which we allow bo
 
 env =gym.make('highway-v0')
 ## Reward
-'collision_reward': -1 <br />
-'lane_change_reward': 0 <br />
-'right_lane_reward': 0.1 <br />
-'high_speed_reward': 0.4 <br />
-'reward_speed_range': [20, 30] <br />
-Out of these 5 rewards which are defined we used only first 3 rewards in our code.
+"collision_reward": -25    
+"right_lane_reward": 0
+                                
+"high_speed_reward": 1
+                                       
+ "lane_change_reward": 0.6   
+ "reward_speed_range": [20, 35]
+ "normalize_reward": True
+
 # Dependencies
 * pip
 * gym
