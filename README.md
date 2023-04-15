@@ -66,8 +66,8 @@ env =gym.make('highway-v0')
 "high_speed_reward": 1
                                        
  "lane_change_reward": 0.6   
- "reward_speed_range": [20, 35]
- "normalize_reward": True
+ "reward_speed_range":[20, 35]
+ 
 
 # Dependencies
 * pip
