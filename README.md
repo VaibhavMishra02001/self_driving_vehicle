@@ -22,6 +22,12 @@ Make a Reinforcement Learning (RL) Model which can drive a car without any exter
 
 # Implementation
 
+## Observation Space
+
+
+We used LiDar observation to measure relative distances of ego vehicle from other vehicles. In this method we don't need separate x,y coordinates and velocities are also not required thus,reducing the state space .Also,this method gives accurate and consistent results.
+
+
 ## State Space
 1)16 angles out of which we picked up only 5 to reduce our state space .Took only front and side angles ignoring backward ones.
 
@@ -33,8 +39,6 @@ return 0.2<br />
 elif(d>=0.4 and d<=1):<br />
 return 0.4
 
-## Observation Space
-We used LiDar observation to measure relative distances of ego vehicle from other vehicles. In this method we don't need separate x,y coordinates and velocities are also not required thus,reducing the state space .Also,this method gives accurate and consistent results.
 
 ## Action Space
 
